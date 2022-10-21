@@ -1,0 +1,145 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+/*****************************************TOPnav********************************************/
+.main-Navbar
+{
+	
+	font-family: serif;
+	width: 100%;
+	height: 100%;
+	background-image: url("4K9A0627.jpg");
+	background-size: cover;
+	overflow: hidden;
+}
+
+.nav-ti
+{
+	width: 100%;
+	height: 80px;
+	background-color: #f56cce;
+	line-height: 80px;
+}
+
+.nav-ti ul
+{
+	float: right;
+	margin-right: 30px;
+}
+
+.nav-ti ul li
+{
+	list-style-type: none;
+	display: inline-block;
+}
+
+.nav-ti ul li:hover
+{
+	background-color: #96bfff; 
+}
+
+.nav-ti ul li a
+{
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+	padding:30px;
+}
+/*****************************************TOPnav********************************************/
+
+.team-section
+{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	text-align: center;
+	background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(backgroundImage.jpg);
+	background-size: cover;
+	padding: 60px;
+}
+
+.team-section h1
+{
+	text-transform: uppercase;
+	margin-bottom: 60px;
+	color: rgb(194, 28, 216);
+	font-size: 80px;
+	font-family: 'Galada', cursive;
+	text-shadow: 4px 4px 4px #eb7a02;
+}
+
+.border
+{
+	display: block;
+	margin: auto;
+	width: 370px; 
+	height: 3px; 
+	color: white;
+	background-color: rgb(194, 28, 216);
+	margin-bottom: 80px;
+	box-shadow: 2px 2px 2px #eb7a02;
+}
+
+.ps
+{
+	margin-bottom: 40px;
+}
+
+.ps a
+{
+	display: inline-block;
+	margin: 0 30px;
+	overflow: hidden;
+	border-radius: 15%;
+}
+
+.ps a img
+{
+	width: 100%;
+	transition: 2s all;
+}
+
+.ps a img:hover
+{
+	transition: 2s all;
+	filter: contrast(270%);
+}
+
+.section
+{
+	width: 600px;
+	margin: auto;
+	font-size: 20px;
+	color: white;
+	text-align: justify;
+	height: 0;
+	overflow: hidden; 
+}
+
+.section p
+{
+	font-family: 'Cookie', cursive;
+	font-size: 35px;
+	color: rgb(194, 28, 216);
+	/**text-shadow: 1px 1px 1px #eb7a02;**/
+}
+
+.section:target
+{
+	height: auto;
+}
+
+.name
+{
+	display: block;
+	margin-bottom: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 42px;
+	color: rgb(194, 28, 216);
+	font-family: 'Kaushan Script', cursive;
+	text-shadow: 2px 2px 2px #eb7a02;
+}

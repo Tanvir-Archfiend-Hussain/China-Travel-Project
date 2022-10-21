@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+	<link href="https://fonts.googleapis.com/css?family=Maven+Pro&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+
+<body>
+	
+		<div class="main-Navbar">
+			<nav class="nav-ti">
+				<img src="beijing-2008-icon.png" width="100" height="100">
+					<ul>
+						<li><a href="../index.html">Home</a></li>
+						<li><a href="../iMAGEgallary03/index.html">Gallery</a></li>
+						<li><a href="../Classics Part II Mandakini/index.html">Portfolio</a></li>
+						<li><a href="../About Page/index.html">About</a></li>
+						<li><a href="../Login Page Part III/index.html">Log In</a></li>
+					</ul>
+				</nav>
+			</div>
+	
+	
+	
+	<div class="loginbox">
+		<img src="girl-idea-icon.png" class="avatar">
+		<h1>Login Here</h1>
+		
+		<form>
+
+			<p>Username</p>
+			<input type="text" name="" placeholder="Enter Username">
+			
+			<p>Password</p>
+			<input class="pass" type="password" name="" placeholder="Enter Password">
+			<input onclick="FailedLogin()" type="submit" name="" value="Login">
+				<script>
+					function FailedLogin() {
+						alert("Your login information is incorrect");						
+					}
+
+					var correct = 7857;
+					if ("pass" = correct) {
+						alert("Correct Password");
+						
+					}
+				</script>
+			
+			<a href="#">Lost Your Password</a><br>
+			<a href="#">Dont have an account?</a>
+
+		</form>
+		
+	</div>
+
+</body>
+
+
+
+</html>
